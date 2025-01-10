@@ -32,7 +32,10 @@ define root view entity ZC_FE_Travel_001577
   } ]
   CurrencyCode,
   Description,
+  _TravelStatus.TravelStatusText as TravelStatusText,
+  @ObjectModel.text.element: [ 'TravelStatusText' ]
   OverallStatus,
+  OverallStatusCriticality,  
   CreatedBy,
   CreatedAt,
   LastChangedBy,
